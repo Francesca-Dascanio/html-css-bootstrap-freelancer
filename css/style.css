@@ -1,0 +1,42 @@
+/* REGOLE DEBUG */
+.debug #header-top {
+    background-color: lightcoral;
+    height: 50px;
+}  
+
+.debug #header-top .row {
+    height: 50px;
+}  
+
+.debug #jumbo {
+    background-color: lightblue;
+} 
+
+.debug #jumbo .box {
+    background-color: green;
+    height: 120px;
+} 
+
+.debug #jumbo .nested-box {
+    background-color: limegreen;
+    border: 1px dashed black;
+}
+
+.debug #jumbo .nested-box:first-child {
+    height: 70px;
+} 
+
+.debug #jumbo .nested-box:last-child {
+    height: 30px;
+} 
+
+.debug #section-2 {
+    background-color: lightgreen;
+} 
+
+.debug footer {
+    background-color: yellow;
+} 
+
+
+/* REGOLE MEDIA QUERY */
