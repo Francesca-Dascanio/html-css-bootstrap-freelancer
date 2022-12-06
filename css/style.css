@@ -9,6 +9,7 @@
 
 
 /* REGOLE DEBUG */
+/* Header */
 .debug #header-top {
     background-color: lightcoral;
     height: 50px;
@@ -40,10 +41,22 @@
     height: 30px;
 } 
 
+
+/* Main */
+.debug #section-1 .card {
+    background-color: orangered;
+    border: 1px dashed black;
+    height: 100px;
+}
+
+
+
 .debug #section-2 {
     background-color: lightgreen;
 } 
 
+
+/* Footer */
 .debug footer {
     background-color: yellow;
 } 
