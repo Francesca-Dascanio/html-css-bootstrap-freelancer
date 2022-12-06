@@ -55,6 +55,10 @@
     background-color: lightgreen;
 } 
 
+.debug #section-3 .message {
+    min-height: 150px;
+} 
+
 
 /* Footer */
 .debug footer {
