@@ -4,7 +4,22 @@
     display: none;
 }
 
+/* Main */
+#section-3 label {
+    display: block;
+}
 
+#section-3 input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+#section-3 .form-special {
+    display: block;
+    width: 20%;
+}
 
 
 
@@ -67,19 +82,6 @@
 
 
 /* REGOLE MEDIA QUERY */
-/* @include media-breakpoint-up(md) {
-    #header-top nav .box:first-child {
-        display: none;
-    }
-
-    #header-top nav .box:last-child {
-        display: block;
-    }
-
-    non ho capito perchè riportata questa regola in doc
-} */
-
-
 /* SM */
 @media screen and (min-width: 768px) {
     #header-top nav .box:first-child {
@@ -90,8 +92,3 @@
         display: block;
     }
 }
-
-/* MD */
-
-
-/* LG */
