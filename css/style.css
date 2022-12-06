@@ -1,3 +1,13 @@
+/* REGOLE CSS */
+/* Header */
+#header-top nav .box:last-child {
+    display: none;
+}
+
+
+
+
+
 /* REGOLE DEBUG */
 .debug #header-top {
     background-color: lightcoral;
@@ -40,3 +50,31 @@
 
 
 /* REGOLE MEDIA QUERY */
+/* @include media-breakpoint-up(md) {
+    #header-top nav .box:first-child {
+        display: none;
+    }
+
+    #header-top nav .box:last-child {
+        display: block;
+    }
+
+    non ho capito perchè riportata questa regola in doc
+} */
+
+
+/* SM */
+@media screen and (min-width: 768px) {
+    #header-top nav .box:first-child {
+        display: none;
+    }
+
+    #header-top nav .box:last-child {
+        display: block;
+    }
+}
+
+/* MD */
+
+
+/* LG */
