@@ -29,6 +29,18 @@
     color: var(--my-color-dark);
 }
 
+.my-decoration > hr {
+    width: 50px;
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.my-decoration > i {
+    vertical-align: middle;
+}
+
 
 /* Header */
 #header-top ul li:hover a {
@@ -40,23 +52,12 @@
 }
 
 
-#jumbo .my-decoration > hr {
-    width: 50px;
-    border: 1px solid;
-    display: inline-block;
-    vertical-align: middle;
-    opacity: 1;
-}
-
-#jumbo .my-decoration > i {
-    vertical-align: middle;
-}
-
-
-
-
-
 /* Main */
+#seciton-1 .card img {
+    width: 100%;
+}
+
+
 #section-3 label {
     display: block;
 }
@@ -110,17 +111,17 @@
 
 
 /* Main */
-.debug #section-1 .card {
+/* .debug #section-1 .card {
     background-color: orangered;
     border: 1px dashed black;
     height: 100px;
-}
+} */
 
 
-
+/* 
 .debug #section-2 {
     background-color: lightgreen;
-} 
+}  */
 
 .debug #section-3 .message {
     min-height: 150px;
@@ -128,9 +129,9 @@
 
 
 /* Footer */
-.debug footer {
+/* .debug footer {
     background-color: yellow;
-} 
+}  */
 
 
 /* REGOLE MEDIA QUERY */
