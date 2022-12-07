@@ -201,22 +201,28 @@
                                     <label for="name">
                                         Name
                                     </label>
-                                    <input type="text" name="name" id="name" required>
+                                    <input type="text" name="name" id="name" placeholder="Insert your name" required>
                                 </div>
                                 <div class="form">
                                     <label for="email">
                                         E-mail address
                                     </label>
-                                    <input type="email" name="email" id="email" required>
+                                    <input type="email" name="email" id="email" placeholder="Insert your e-mail address" required>
                                 </div>
                                 <div class="form">
-                                    <label for="email">
+                                    <label for="tel">
                                         Phone number
                                     </label>
-                                    <input type="tel" name="tel" id="tel" required>
+                                    <input type="tel" name="tel" id="tel" placeholder="Insert your phone number" required>
                                 </div>
-                                <div class="form-special">
-                                    <input type="submit" value="Send">
+                                <div class="form">
+                                    <label for="message">
+                                        Message
+                                        <textarea name="message" id="message" placeholder="Write your message" required rows="8" cols="30"></textarea>
+                                    </label>
+                                </div>
+                                <div class="pt-3 btn">
+                                    <input class="my-bg-green rounded my-color-light" type="submit" value="Send">
                                 </div>
                             </form>
                         </div>
