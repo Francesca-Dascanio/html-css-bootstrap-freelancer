@@ -6,6 +6,7 @@
     --my-bg-quite-dark: #3a546d;
     --my-color-light: #ffffff;
     --my-color-dark: #000000;
+    --my-color-green: #1abc9c;
 }
 
 .my-bg-dark {
@@ -26,7 +27,11 @@
 }
 
 .my-color-dark {
-    color: var(--my-color-dark);
+  color: var(--my-color-dark);
+}
+
+.my-color-green {
+    color: var(--my-color-green);
 }
 
 .my-decoration > hr {
@@ -49,6 +54,13 @@
     border-color: var(--my-color-light);
 }
 
+.my-font-small {
+    font-size: 0.8rem;
+}
+
+.my-font-extra-small {
+    font-size: 0.5rem;
+}
 
 /* Header */
 #header-top ul li:hover a {
@@ -86,11 +98,11 @@
     border-bottom: 1px solid black;
 }
 
-#section-3 input:last-child {
-    border: none;
-    border-bottom: none;
-}
 
+/* Footer */
+#footer-bottom p {
+    margin-block-end: 0em;
+}
 
 
 /* REGOLE DEBUG */
@@ -140,9 +152,9 @@
     background-color: lightgreen;
 }  */
 
-.debug #section-3 .message {
+/* .debug #section-3 .message {
     min-height: 150px;
-} 
+}  */
 
 
 /* Footer */
