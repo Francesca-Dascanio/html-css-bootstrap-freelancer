@@ -41,6 +41,14 @@
     vertical-align: middle;
 }
 
+.my-br-green {
+    border-color: var(--my-bg-green);
+}
+
+.my-br-light {
+    border-color: var(--my-color-light);
+}
+
 
 /* Header */
 #header-top ul li:hover a {
@@ -53,7 +61,9 @@
 
 
 /* Main */
-#seciton-1 .card img {
+
+
+#section-1 .card img {
     width: 100%;
 }
 
