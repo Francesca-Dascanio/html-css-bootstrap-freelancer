@@ -35,6 +35,27 @@
     color: var(--my-bg-green);
 }
 
+#jumbo img {
+    width: 40%;
+}
+
+
+#jumbo .my-decoration > hr {
+    width: 50px;
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+#jumbo .my-decoration > i {
+    vertical-align: middle;
+}
+
+
+
+
+
 /* Main */
 #section-3 label {
     display: block;
@@ -113,4 +134,8 @@
 
 
 /* REGOLE MEDIA QUERY */
-
+@media screen and (min-width: 768px) {
+    #jumbo img {
+        width: 20%;
+    }
+}
