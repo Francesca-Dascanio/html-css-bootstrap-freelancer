@@ -1,7 +1,38 @@
 /* REGOLE CSS */
+/* regole generali */
+:root {
+    --my-bg-dark: #2c3e50;
+    --my-bg-green: #1abc9c;
+    --my-bg-quite-dark: #3a546d;
+    --my-color-light: #ffffff;
+    --my-color-dark: #000000;
+}
+
+.my-bg-dark {
+    background-color: var(--my-bg-dark);
+}
+
+
+.my-bg-green {
+    background-color: var(--my-bg-green);
+}
+
+.my-bg-quite-dark {
+    background-color: var(--my-bg-quite-dark);
+}
+
+.my-color-light {
+    color: var(--my-color-light);
+}
+
+.my-color-dark {
+    color: var(--my-color-dark);
+}
+
+
 /* Header */
-#header-top nav .box:last-child {
-    display: none;
+#header-top ul li:hover a {
+    color: var(--my-bg-green);
 }
 
 /* Main */
@@ -25,7 +56,7 @@
 
 /* REGOLE DEBUG */
 /* Header */
-.debug #header-top {
+/* .debug #header-top {
     background-color: lightcoral;
     height: 50px;
 }  
@@ -54,7 +85,7 @@
 
 .debug #jumbo .nested-box:last-child {
     height: 30px;
-} 
+}  */
 
 
 /* Main */
@@ -82,13 +113,4 @@
 
 
 /* REGOLE MEDIA QUERY */
-/* SM */
-@media screen and (min-width: 768px) {
-    #header-top nav .box:first-child {
-        display: none;
-    }
 
-    #header-top nav .box:last-child {
-        display: block;
-    }
-}
